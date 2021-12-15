@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Listar ofertas de viaje" skipped="0" tests="2" time="29.73" timestamp="2021-12-15 04:40:10"><testcase name="verificar viaje"><failure message="&#13;&#10;Expected: is &lt;270700&gt;&#13;&#10;     but: was &lt;636522&gt;" type="java.lang.AssertionError">&#13;
+Expected: is &lt;270700&gt;&#13;
+     but: was &lt;636522&gt;</failure><system-err>&#13;
+Expected: is &lt;270700&gt;&#13;
+     but: was &lt;636522&gt;&#13;
+techmahindra.pruebatecnica.steps.RevisarViajeSteps.validarOrdenPrecios(RevisarViajeSteps.java:74)&#13;
+techmahindra.pruebatecnica.definitions.RevisarViajeDefinition.validoOrdenDeLosPreciosDeMenorAMayor(RevisarViajeDefinition.java:48)&#13;
+✽.Valido orden de los precios de menor a mayor(file:///C:/Prueba/TechMahindra/techmahindra.pruebatecnica/src/test/resources/features/RevisarViaje.feature:14)&#13;
+</system-err></testcase></testsuite>
