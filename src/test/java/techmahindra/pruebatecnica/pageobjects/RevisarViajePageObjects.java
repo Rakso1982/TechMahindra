@@ -1,17 +1,12 @@
 package techmahindra.pruebatecnica.pageobjects;
 
-import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
-import java.util.LinkedHashMap;
 
 import org.openqa.selenium.By;
 
 import net.serenitybdd.core.pages.PageObject;
 import net.thucydides.core.annotations.DefaultUrl;
 import techmahindra.pruebatecnica.utilities.Utilidades;
-import net.serenitybdd.core.pages.WebElementFacade;
-import java.util.stream.Collectors;
 
 @DefaultUrl ("https://www.vivaair.com/")
 

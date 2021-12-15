@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="techmahindra.pruebatecnica.RunnerFeatures" time="36.799" tests="2" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="techmahindra.pruebatecnica.RunnerFeatures" time="25.983" tests="2" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="16.0.1+9-24"/>
@@ -42,7 +42,7 @@
     <property name="java.class.path" value="C:\dev\apache-maven-3.8.4\boot\plexus-classworlds-2.6.0.jar"/>
     <property name="java.vm.specification.version" value="16"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher install"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-16.0.1"/>
     <property name="user.language" value="es"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -59,7 +59,7 @@
     <property name="sun.stdout.encoding" value="cp850"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="verificar viaje #1" classname="Listar ofertas de viaje" time="16.646">
+  <testcase name="verificar viaje #1" classname="Listar ofertas de viaje" time="11.605">
     <failure message="&#10;Expected: is &lt;270700&gt;&#10;     but: was &lt;636522&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
 
 Expected: is <270700>
@@ -111,16 +111,16 @@ verificar viaje(listar-ofertas-de-viaje;verificar-viaje)
 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ASUS Laptop\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
 [main] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
 [main] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.driver: src/test/resources/driversc..., driver: chrome, goog:chromeOptions: {args: [--start-maximized], extensions: []}, loggingPrefs: org.openqa.selenium.logging...}
-Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 18381
+Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 9396
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-dic. 15, 2021 4:40:13 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+dic. 15, 2021 5:53:24 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 [main] INFO  - STEP FAILURE: java.lang.AssertionError: 
 Expected: is <270700>
      but: was <636522>
 ]]></system-err>
   </testcase>
-  <testcase name="verificar viaje #2" classname="Listar ofertas de viaje" time="12.92"/>
+  <testcase name="verificar viaje #2" classname="Listar ofertas de viaje" time="9.576"/>
 </testsuite>

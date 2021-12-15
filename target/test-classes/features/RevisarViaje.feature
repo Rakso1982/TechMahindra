@@ -17,4 +17,3 @@ Feature: Listar ofertas de viaje
       | origen     | destino       | fecha |
       | 'Bogotá'   | 'Santa Marta' | '24,Diciembre,2021' | 
       | 'Bogotá'   | 'Cúcuta'      | '3,Enero,2022' | 
-      ##| 'Medellín' | 'Barranquilla' | '30,Diciembre,2021' |

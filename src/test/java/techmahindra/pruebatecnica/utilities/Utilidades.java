@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Map.Entry;
 import java.util.stream.Collectors;
 
 import net.serenitybdd.core.pages.PageObject;
@@ -22,7 +23,6 @@ public class Utilidades extends PageObject {
 				.map(WebElementFacade::getText)
 				.collect(Collectors.toList());
 		
-		
 		for (String lis:lista) {				
 			mapOriginal.put(cont, lis);
 			cont += 1;
@@ -33,10 +33,9 @@ public class Utilidades extends PageObject {
 	public Map<Integer, Integer> obtenerValoresSinOrdenar(Map<Integer, String> mapOriginal){
 		Map<Integer, Integer> mapSinOrdenar = new HashMap<>();
 		
-		for (var entry : mapOriginal.entrySet()) {
+		for (Entry<Integer, String> entry : mapOriginal.entrySet()) {
 			String[] divLista = entry.getValue().split("\\r?\\n");
 			int longitud = divLista.length;
-			
 			int valor = Integer.parseInt(divLista[longitud - 1].trim().split("\\s+")[0].replace(".", ""));
 			
 			mapSinOrdenar.put(entry.getKey(), valor);

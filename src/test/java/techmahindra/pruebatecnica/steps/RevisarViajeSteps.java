@@ -4,6 +4,7 @@ import static org.hamcrest.CoreMatchers.is;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Map.Entry;
 
 import org.hamcrest.MatcherAssert;
 
@@ -70,7 +71,7 @@ public class RevisarViajeSteps {
 		
 		Serenity.takeScreenshot();
 		
-		for (var entry : valoresOrdenados.entrySet()) {
+		for (Entry<Integer, Integer> entry : valoresOrdenados.entrySet()) {
 			MatcherAssert.assertThat(valoresOrdenados.get(cont), is(entry.getValue()));
 			cont += 1;
 		}
